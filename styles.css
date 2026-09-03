@@ -210,14 +210,17 @@ body {
 
 .hero__title {
   margin: 0;
-  max-width: 14ch;
-  font-size: clamp(2.2rem, 6vw, 3.8rem);
-  font-weight: 800;
-  line-height: 1.05;
-  letter-spacing: -0.03em;
+  max-width: 20ch;
+  font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", sans-serif;
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: var(--text);
 }
 
 .gradient-text {
+  font: inherit;
   background: linear-gradient(90deg, var(--cyan), var(--violet), var(--pink));
   -webkit-background-clip: text;
   background-clip: text;
@@ -429,22 +432,6 @@ body {
   color: rgba(238, 242, 255, 0.82);
   font-family: var(--font-mono);
   font-size: 0.68rem;
-}
-
-.card__footer {
-  margin-top: 1rem;
-  padding-top: 0.85rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
-}
-
-.card__slug {
-  color: rgba(238, 242, 255, 0.38);
-  font-size: 0.68rem;
-  letter-spacing: 0.04em;
-}
-
-.mono {
-  font-family: var(--font-mono);
 }
 
 .empty-state {

@@ -78,13 +78,10 @@ function buildCard(member) {
   const titleEl = node.querySelector(".card__title");
   const companyEl = node.querySelector(".card__company");
   const noteEl = node.querySelector(".card__note");
-  const tagsEl = node.querySelector(".card__tags");
-  const slugEl = node.querySelector(".card__slug");
 
   initialsEl.textContent = initialsFromName(member.name);
   linkedinEl.href = member.linkedin;
   nameEl.textContent = member.name;
-  slugEl.textContent = `@${member.slug}`;
 
   if (member.avatar) {
     imgEl.src = member.avatar;
@@ -115,8 +112,6 @@ function buildCard(member) {
   } else {
     noteEl.remove();
   }
-
-  tagsEl.remove();
 
   return node;
 }

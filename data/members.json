@@ -2,7 +2,7 @@
   "community": {
     "name": "AI Catch Up",
     "tagline": "LINE AI 情報交換コミュニティ",
-    "description": "AIの最新動向・実践知・つながりを共有する、メンバー向けディレクトリです。"
+    "description": "AIの最新動向、実践知を純粋に共有することを目的としています"
   },
   "groups": [
     { "id": "organizers", "label": "運営" },
@@ -48,7 +48,7 @@
     {
       "linkedin": "https://www.linkedin.com/in/kentodatoda/",
       "group": "professional",
-      "name": "Kento Datoda",
+      "name": "Kento Toda",
       "company": "三井物産",
       "tags": ["社会人"]
     },
