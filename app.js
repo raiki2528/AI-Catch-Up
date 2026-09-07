@@ -1,3 +1,5 @@
+import data from "./data/members.js";
+
 const state = {
   members: [],
   groups: [],
@@ -159,12 +161,8 @@ function render() {
   els.emptyState.hidden = state.members.length > 0;
 }
 
-async function init() {
+function init() {
   try {
-    const response = await fetch("./data/members.json");
-    if (!response.ok) throw new Error("Failed to load members.json");
-    const data = await response.json();
-
     state.community = data.community || {};
     state.groups = data.groups || [];
     state.members = (data.members || [])
@@ -179,7 +177,7 @@ async function init() {
     render();
   } catch (error) {
     els.emptyState.hidden = false;
-    els.emptyState.textContent = "members.json を確認してください。";
+    els.emptyState.textContent = "メンバーデータを読み込めませんでした。";
     console.error(error);
   }
 }

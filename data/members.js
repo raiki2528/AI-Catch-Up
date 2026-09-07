@@ -1,4 +1,4 @@
-{
+export default {
   "community": {
     "name": "AI Catch Up",
     "tagline": "LINE AI 情報交換コミュニティ",
@@ -144,4 +144,4 @@
       "tags": ["学生"]
     }
   ]
-}
+};
