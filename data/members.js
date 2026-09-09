@@ -83,7 +83,7 @@ export default {
     {
       "linkedin": "https://www.linkedin.com/in/starupkoko/",
       "group": "professional",
-      "name": "Kokomu",
+      "name": "Kokomu Matsuo",
       "company": "STAR UP 最高執行責任者",
       "tags": ["社会人"]
     },
@@ -141,6 +141,13 @@ export default {
       "group": "student",
       "name": "Takahiko Sakuma",
       "company": "NewsPicks",
+      "tags": ["学生"]
+    },
+    {
+      "linkedin": "https://www.linkedin.com/in/naoya-obata0107/",
+      "group": "student",
+      "name": "Naoya Obata",
+      "company": "NY EY",
       "tags": ["学生"]
     }
   ]
